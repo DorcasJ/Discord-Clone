@@ -1,0 +1,70 @@
+body{
+    background-image: url("discordimage.jpg");
+    background-position: top;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dark-place {
+    display: flex;
+    background-color: rgba(54, 57, 62, 0.5);
+    width: 50%;
+    margin: 120px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: rgb(138, 140, 144);
+    font-size: 15px;
+}
+
+label {
+    color: rgb(164, 166, 170);
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+label span {
+    color: rgb(227, 67, 63);
+}
+
+a {
+    color: rgb(64, 148, 197);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+input {
+    width: 10cm;
+    height: 1cm;
+    display: block;
+    background-color: rgb(32, 34, 37);
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+button {
+    width: 10cm;
+    background-color: rgb(232, 95, 157);
+    height: 1cm;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.qr-code {
+    text-align: center;
+    /* I used the border to visualize the space available */
+    /* border: 1px solid gold; */
+    padding-left: 50px;
+    /* center vertically */
+    margin: auto 0;
+}
